@@ -1,0 +1,26 @@
+{
+  "name": "project_mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeniBykovski/project_mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeniBykovski/project_mobile/issues"
+  },
+  "homepage": "https://github.com/EugeniBykovski/project_mobile#readme",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "swiper": "^9.4.1"
+  }
+}
