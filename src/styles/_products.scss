@@ -1,0 +1,42 @@
+.product {
+  @include flex();
+
+  &__item {
+    @include transition();
+
+    position: relative;
+    width: calc(100% / 4);
+    margin: $m-1;
+    padding: $p-2;
+
+    text-align: center;
+    background-color: $primary-color;
+    border-radius: 1rem;
+
+    cursor: pointer;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+
+  &__image {
+    padding: $p-2;
+  }
+
+  &__title {
+    padding: $p-1;
+
+    font-size: $font-20;
+    font-weight: $font-w-500;
+
+    color: $color-white;
+  }
+
+  &__description {
+    padding: $p-1;
+
+    color: $color-violet;
+    line-height: 1.5;
+  }
+}

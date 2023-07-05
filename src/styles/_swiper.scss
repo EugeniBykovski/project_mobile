@@ -1,0 +1,12 @@
+.swiper {
+  width: 100%;
+  height: auto;
+
+  &-scrollbar {
+    bottom: 0;
+
+    &-drag {
+      background-color: $color-violet;
+    }
+  }
+}
